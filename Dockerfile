@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM php:8.5.3RC1-apache
 
 # Install mysqli and pdo_mysql extensions
 RUN docker-php-ext-install mysqli pdo_mysql
